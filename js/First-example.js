@@ -1,5 +1,5 @@
 function setup() {
-    createCanvas(400, 400);
+    createCanvas(800, 800);
     colorMode(HSB);
   
     // Set angle mode so that atan2() returns angles in degrees
@@ -13,8 +13,8 @@ function setup() {
   
     // Draw left eye
   
-    let leftX = 150;
-    let leftY = 200;
+    let leftX = 350;
+    let leftY = 400;
   
     // Calculate angle between left eye and mouse
     let leftAngle = atan2(mouseY - leftY, mouseX - leftX);
@@ -30,8 +30,8 @@ function setup() {
   
     // Draw right eye
   
-    let rightX = 250;
-    let rightY = 200;
+    let rightX = 500;
+    let rightY = 400;
   
     // Calculate angle between right eye and angle
     let rightAngle = atan2(mouseY - rightY, mouseX - rightX);
